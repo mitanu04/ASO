@@ -6,7 +6,6 @@ int main() {
     HKEY hKey, hKeyRoot = HKEY_CURRENT_USER;
     LPCTSTR pszPath = TEXT("Control Panel\\Desktop");
 
-    // Deschidere cheie
     DWORD result = RegOpenKeyEx(
         hKeyRoot,
         pszPath,
